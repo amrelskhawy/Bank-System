@@ -1,0 +1,12 @@
+{
+  "name": "BankSystem",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "front:start": "cd basic-banking-app && yarn start"
+  },
+  "dependencies": {
+    "sass": "^1.56.1"
+  }
+}
