@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "front:start": "cd basic-banking-app && yarn start"
+    "front:start": "cd basic-banking-app && yarn start",
+    "back:start": "cd bank-server && yarn dev"
   },
   "dependencies": {
     "sass": "^1.56.1"

@@ -1,6 +1,6 @@
 import React from 'react'
 import Photo from '../../assets/imgs/photo.jpg'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import './Main.component.scss'
 
 const Main = () => {
@@ -24,13 +24,13 @@ const Main = () => {
                         Transactions
                         </Link>
                     </button>
-    </div>*/}
+                </div>*/}
             </div>
             <div className='image'>
                 <div className='img-container'>
                     <img src={Photo} alt='' className='img' />
-                    </div>
-                    <div className='circle'></div>
+                </div>
+                <div className='circle'></div>
             </div>
         </main>
     )

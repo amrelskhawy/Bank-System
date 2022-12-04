@@ -1,4 +1,3 @@
-const config = require('./src/config/config')
 const express = require('express')
 const bodyParser = require('body-parser')
 const app = express()
@@ -11,7 +10,7 @@ app.use(
   })
 )
 app.get('/', (request, response) => {
-  response.send( config)
+  response.send('Hello')
 })
 
 app.listen(port, () => {
