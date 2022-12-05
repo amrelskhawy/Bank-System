@@ -1,11 +1,13 @@
-import { config } from "./config/config";
+const Pool = require('pg').Pool
 
-export const sequelize = new Sequelize({
-  username: config.username,
-  password: `${config.password}`,
-  database: config.database,
-  host: config.host,
-  
-  dialect: "postgres",
-  storage: ":memory:",
-});
+const pool = new Pool({
+  user: 'postgres',
+  host: 'localhost',
+  database: 'banksystem',
+  password: 'password',
+  port: 5432,
+})
+
+module.exports = {
+  connect: pool
+}

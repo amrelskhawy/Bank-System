@@ -5,7 +5,9 @@ import './Header.component.scss'
 const Header = () => {
     return (
         <header>
-            <h3>Central Bank</h3>
+            <Link to="/">
+                <h3>Central Bank</h3>
+            </Link>
             <ul className="nav-links">
                 <li className="nav-link">
                     <Link to="/">

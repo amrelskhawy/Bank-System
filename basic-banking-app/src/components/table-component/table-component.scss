@@ -1,0 +1,55 @@
+table,
+td,
+th,
+tr {
+    outline: 1px solid;
+    height: fit-content;
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+    border: none;
+
+}
+
+tr{
+    cursor: pointer;
+    &:hover {
+    background-color: #ccc;
+    }
+}
+
+.table {
+    width: 70%;
+    outline: none;
+    margin: 1rem auto;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+    .table-container {
+        margin: 2rem 0;
+    
+        .table-heading {
+            width: 70%;
+            margin: 1rem auto;
+            text-align: center;
+    
+            .title {
+                font-size: 2.5rem;
+                text-transform: uppercase;
+            }
+    
+            .desc {
+                font-size: 1.15rem;
+                letter-spacing: .6px;
+                color: #666;
+    
+            }
+        }
+    
+    
+    }
+
+    th {
+        background-color: #4361ee;
+        color: #fff;
+    }

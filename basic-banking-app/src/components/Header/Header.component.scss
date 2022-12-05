@@ -20,11 +20,11 @@ header {
         align-self: center;
         text-transform: uppercase;
         
-
-        .nav-link > a {
-            text-decoration: none;
-            color: #111;
-            font-weight: 500;
-        }
     }
+}
+
+a {
+    text-decoration: none;
+    color: #111;
+    font-weight: 500;
 }
